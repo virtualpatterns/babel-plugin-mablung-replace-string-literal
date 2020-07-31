@@ -1,0 +1,14 @@
+{
+  "ignores": [
+    "@babel/*",
+    "@virtualpatterns/mablung-*"
+  ],
+  "parsers": {
+    "*.cjs": [ "es6" ],
+    "*.js": [ "es6" ]
+  },
+  "specials": [
+    "bin",
+    "eslint"
+  ]
+}
