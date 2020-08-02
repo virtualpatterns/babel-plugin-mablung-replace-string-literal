@@ -1,7 +1,7 @@
 {
   "ignores": [
     "@babel/*",
-    "@virtualpatterns/mablung-*"
+    "@virtualpatterns/mablung-source-map-support"
   ],
   "parsers": {
     "*.cjs": [ "es6" ],
