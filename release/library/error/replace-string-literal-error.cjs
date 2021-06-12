@@ -15,4 +15,5 @@ class ReplaceStringLiteralError extends _visitorError.VisitorError {
 }
 
 exports.ReplaceStringLiteralError = ReplaceStringLiteralError;
+
 //# sourceMappingURL=replace-string-literal-error.cjs.map

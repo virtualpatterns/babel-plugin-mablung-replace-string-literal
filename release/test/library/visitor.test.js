@@ -4,7 +4,7 @@ import Test from 'ava';
 
 const Require = CreateRequire(import.meta.url);
 
-Test.beforeEach(test => {
+Test.beforeEach((test) => {
 
   test.context.option = {
     'plugins': [
@@ -24,7 +24,7 @@ Test.beforeEach(test => {
 
 });
 
-Test('import', async test => {
+Test('import', async (test) => {
 
   let codeIn = 'import { abc } from \'./abc.js\'';
   let expectedCodeOut = 'import { abc } from "./abc.cjs";';
@@ -35,7 +35,7 @@ Test('import', async test => {
 
 });
 
-Test('import(...)', async test => {
+Test('import(...)', async (test) => {
 
   let codeIn = 'const abcPromise = import(\'./abc.js\')';
   let expectedCodeOut = 'const abcPromise = import("./abc.cjs");';
@@ -46,7 +46,7 @@ Test('import(...)', async test => {
 
 });
 
-Test('require(...)', async test => {
+Test('require(...)', async (test) => {
 
   let codeIn = 'const abc = require(\'./abc.js\')';
   let expectedCodeOut = 'const abc = require("./abc.cjs");';
@@ -57,7 +57,7 @@ Test('require(...)', async test => {
 
 });
 
-Test('let', async test => {
+Test('let', async (test) => {
 
   let codeIn = 'let abc = \'./abc.js\'';
   let expectedCodeOut = 'let abc = "./abc.cjs";';
@@ -68,7 +68,7 @@ Test('let', async test => {
 
 });
 
-Test('let ...', async test => {
+Test('let ...', async (test) => {
 
   let codeIn = 'let abc = \'./ab\' + \'c.js\'';
   let expectedCodeOut = 'let abc = \'./ab\' + \'c.js\';';
@@ -79,7 +79,7 @@ Test('let ...', async test => {
 
 });
 
-Test('console.log(...)', async test => {
+Test('console.log(...)', async (test) => {
 
   let codeIn = 'console.log(\'Here at ./abc.js and there at ./def.js\')';
   let expectedCodeOut = 'console.log(\'Here at ./abc.js and there at ./def.js\');';
@@ -90,7 +90,7 @@ Test('console.log(...)', async test => {
 
 });
 
-Test('fs.readFileAsync(...)', async test => {
+Test('fs.readFileAsync(...)', async (test) => {
 
   let codeIn = 'fs.readFileAsync(\'./abc.json\')';
   let expectedCodeOut = 'fs.readFileAsync(\'./abc.json\');';
@@ -100,4 +100,5 @@ Test('fs.readFileAsync(...)', async test => {
   test.is(actualCodeOut, expectedCodeOut);
 
 });
+
 //# sourceMappingURL=visitor.test.js.map
