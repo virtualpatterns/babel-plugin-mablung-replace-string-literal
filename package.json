@@ -63,6 +63,6 @@
   },
   "dependencies": {
     "@pwn/is": "^1.0.2",
-    "@virtualpatterns/mablung-babel-plugin": "0.0.1-18"
+    "@virtualpatterns/mablung-babel-plugin": "0.0.1-19"
   }
 }
