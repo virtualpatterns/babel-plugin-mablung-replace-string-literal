@@ -76,7 +76,7 @@
     "url": "https://github.com/virtualpatterns/mablung-babel-plugin-replace-string-literal"
   },
   "type": "module",
-  "version": "0.0.1-26",
+  "version": "0.0.1-27",
   "dependencies": {
     "@pwn/is": "^1.0.2",
     "@virtualpatterns/mablung-babel-plugin": "0.0.1-31"
