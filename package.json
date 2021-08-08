@@ -44,7 +44,7 @@
   },
   "exports": {
     ".": "./release/index.cjs",
-    "./package.json": "./release/index.cjs"
+    "./package.json": "./package.json"
   },
   "files": [
     "release/library",
