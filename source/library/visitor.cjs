@@ -1,5 +1,5 @@
-import Is from '@pwn/is'
 import { Visitor as BaseVisitor } from '@virtualpatterns/mablung-babel-plugin/visitor'
+import Is from '@pwn/is'
 
 class Visitor extends BaseVisitor {
 
