@@ -1,2 +1,2 @@
-# mablung-babel-plugin-replace-string-literal
+# babel-plugin-mablung-replace-string-literal
 TBD
