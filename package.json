@@ -20,7 +20,7 @@
   "version": "0.0.26-6",
   "dependencies": {
     "@pwn/is": "^1.0.2",
-    "@virtualpatterns/babel-plugin-mablung": "0.0.26-12"
+    "@virtualpatterns/babel-plugin-mablung": "0.0.26-20"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
