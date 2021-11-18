@@ -2,15 +2,15 @@
   "author": "virtualpatterns.com <code@virtualpatterns.com> (http://www.virtualpatterns.com)",
   "description": "TBD",
   "exports": {
-    ".": "./release/plugin.cjs",
+    ".": "./release/index.cjs",
     "./package.json": "./package.json"
   },
   "files": [
     "release/library",
-    "release/plugin.cjs"
+    "release/index.cjs"
   ],
   "license": "GPL-3.0+",
-  "main": "release/plugin.cjs",
+  "main": "release/index.cjs",
   "name": "@virtualpatterns/babel-plugin-mablung-replace-string-literal",
   "repository": {
     "type": "git",
