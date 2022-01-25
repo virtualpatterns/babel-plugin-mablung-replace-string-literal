@@ -20,15 +20,15 @@
   "version": "0.0.26-26",
   "dependencies": {
     "@pwn/is": "^1.0.2",
-    "@virtualpatterns/babel-plugin-mablung": "0.0.26-37"
+    "@virtualpatterns/babel-plugin-mablung": "0.0.26-41"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@virtualpatterns/babel-preset-mablung-makefile": "0.0.26-58",
-    "@virtualpatterns/eslint-config-mablung-makefile": "0.0.26-57",
-    "@virtualpatterns/mablung-check-dependency": "0.0.26-41",
-    "@virtualpatterns/mablung-makefile": "0.0.26-144",
-    "@virtualpatterns/mablung-source-map-support": "0.0.26-46",
-    "ava": "^3.15.0"
+    "@babel/core": "^7.16.12",
+    "@virtualpatterns/babel-preset-mablung-makefile": "0.0.26-69",
+    "@virtualpatterns/eslint-config-mablung-makefile": "0.0.26-69",
+    "@virtualpatterns/mablung-check-dependency": "0.0.26-46",
+    "@virtualpatterns/mablung-makefile": "0.0.26-162",
+    "@virtualpatterns/mablung-source-map-support": "0.0.26-55",
+    "ava": "^4.0.1"
   }
 }
