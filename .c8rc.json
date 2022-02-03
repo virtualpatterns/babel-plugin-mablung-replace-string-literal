@@ -1,8 +1,7 @@
 {
   "all": true,
   "exclude": [
-    "release/header",
-    "ava.config.cjs"
+    "ava.config.js"
   ],
   "reportDir": "data/c8", 
   "reporter": [
