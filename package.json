@@ -20,13 +20,13 @@
   "version": "0.0.26-50",
   "dependencies": {
     "@pwn/is": "^1.0.2",
-    "@virtualpatterns/babel-plugin-mablung": "0.0.26-64"
+    "@virtualpatterns/babel-plugin-mablung": "0.0.26-68"
   },
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@virtualpatterns/babel-preset-mablung-makefile": "0.0.26-105",
     "@virtualpatterns/eslint-config-mablung-makefile": "0.0.26-100",
-    "@virtualpatterns/mablung-check-dependency": "0.0.26-74",
+    "@virtualpatterns/mablung-check-dependency": "0.0.26-80",
     "@virtualpatterns/mablung-makefile": "0.0.26-228",
     "ava": "^4.0.1"
   }
